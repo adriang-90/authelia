@@ -10,6 +10,9 @@ const (
 
 var rootFiles = []string{"favicon.ico", "manifest.json", "robots.txt"}
 
+const schemeHTTP = "http"
+const schemeHTTPS = "https"
+
 const (
 	dev = "dev"
 	f   = "false"
